@@ -4,12 +4,12 @@ const viva = true;
 
 function calcIdade(ano){
    let idade = ano - nasc;
-   
+   let menor;
    if (idade<18)
      {
-      let menor = true;
+       menor = true;
      } else{
-      let menor = false;
+       menor = false;
      }
      alert(`${nome}é  menor de idade? ${menor}`)
      return idade;
