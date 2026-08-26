@@ -2,7 +2,7 @@ var nasc= 2010
 let nome= "yasmim";
 const viva = true;
 
-function calcIdade(ano){
+function calcIdade(ano=2026){
    let idade = ano - nasc;
    let menor;
    if (idade<18)
