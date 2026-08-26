@@ -11,7 +11,7 @@ function calcIdade(ano){
      } else{
        menor = false;
      }
-     alert(`${nome}é  menor de idade? ${menor}`)
+     alert(`${nome} é  menor de idade? ${menor}`)
      return idade;
 }
 
