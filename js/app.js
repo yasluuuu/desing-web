@@ -8,10 +8,13 @@ function calcIdade(ano=2026){
    if (idade<18)
      {
        menor = true;
+       var podebeber=false;
+
      } else{
        menor = false;
+       var podebeber = true
      }
-     alert(`${nome} é  menor de idade? ${menor}`)
+     alert(`${nome} é  menor de idade? ${menor}\nidade: ${idade}\npode beber: ${podebeber}`)
      return idade;
 }
 
