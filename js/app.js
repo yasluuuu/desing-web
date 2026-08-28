@@ -1,5 +1,5 @@
 let nasc = prompt("digite seu ano de nascimento:");
-nasc = parseInt(nasc) /* pra dizer que uma variavel é inteira tem int float string e assim vai!*/
+nasc = parseInt(nasc); /* pra dizer que uma variavel é inteira tem int float string e assim vai!*/
 
 let viva =confirm("se vc esta viva, clique em ok ");
 
