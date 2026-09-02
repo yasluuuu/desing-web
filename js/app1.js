@@ -1,11 +1,12 @@
-let nasc = Number(prompt("digite seu ano de nascimento "))
-let idade = 2026 - nasc;
-alert(`sua idade é ${idade}`);
+let num = Number(prompt("digite um numero"))
 
-if (idade >= 18){
-    alert("vc é maior de idade");
+
+if (num % 2 != 0){
+    alert(`${num} é impar`);
+
+}else if (num == 0){
+    alert(`${num} é zero`);
+
 }else{
-
-    alert("vc é menor de idade");
-
+    alert(`${num} é par`)
 }
