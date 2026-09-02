@@ -3,9 +3,9 @@ let idade = 2026 - nasc;
 alert(`sua idade é ${idade}`);
 
 if (idade >= 18){
-    alert("vc é maior de idade")
+    alert("vc é maior de idade");
 }else{
 
-    alert("vc é menor de idade")
+    alert("vc é menor de idade");
 
 }
